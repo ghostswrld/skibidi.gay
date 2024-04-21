@@ -1,0 +1,162 @@
+body {
+    background-image: url("https://media.discordapp.net/attachments/1166841297861091369/1166846285278625842/lul.gif?ex=654bf949&is=65398449&hm=1af28e872d12404242e50121f92e7c4932035f94b4a1cc1e7c356e66a7289db8&=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+h1 {
+    font-family: "MC";
+    font-weight: lighter;
+    font-size: 40px;
+    color: #f984ef;
+    margin-top: 10px;
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.4));
+    position: static;
+    background-image: url("https://media.discordapp.net/attachments/1161709800430780456/1162746600733556838/sparkle.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    margin-right: 3px;
+}
+h1 a {
+    color: white;
+}
+h1:hover {
+text-decoration: underline;
+}
+p {
+font-family: "MC";
+font-weight: lighter;
+font-size: 20px;
+color: hotpink;
+margin-top: 10px;
+filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.4));
+position: static;
+background-position: center;
+background-repeat: no-repeat;
+margin: 0px;
+margin-left: 3px;
+}
+a,a:hover {
+    text-decoration: none
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    width: 350px;
+    bottom: 40px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    -moz-backdrop-filter: blur(1px);
+    -ms-backdrop-filter: blur(1px);
+    padding: 70px 0;
+    border-radius: 2px;
+    position: relative;
+}
+
+.avatar {
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgba(2, 2, 2, 0.3);
+    -webkit-box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.75);
+    pointer-events: none;
+}
+
+.discord {
+    width: 40px;
+    top: 3px;
+    margin: 5px;
+    transition: filter 0.3s linear
+}
+
+
+.roblox {
+    width: 44px;
+    top: 3px;
+    margin: 5px;
+    margin-left: 5px;
+    transition: filter 0.3s linear
+}
+
+.roblox:hover {
+    transform:scale(1.2)
+}
+.roblox:hover {
+    transition: all 0.5s ease-in-out
+}
+
+* {
+    cursor: url("cur4u.com") 16 16, auto !important
+}
+.discord:hover {
+    transition: all 0.5s ease-in-out
+}
+.discord:hover {
+transform:scale(1.2)
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+.proceed-button {
+    background-color: transparent;
+    border: none;
+    font-family: "arial";
+    color: rgb(255, 255, 255);
+    position: fixed;
+    font-size: 50px;
+    font-family: 'Tape';
+}
+.proceed-button:hover {
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #ffffff;
+  }
+  to {
+    text-shadow: 0 0 20px #ffffff;
+  }
+}
+.phone {
+    display: none;
+}
+.snowflake {
+    color: #f984ef;
+    font-size: 1.5em;
+    font-family: Arial, sans-serif;
+    text-shadow: 0 0 14px white;
+}
+  
+  @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}.snowflake:nth-of-type(10){left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s}.snowflake:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}
