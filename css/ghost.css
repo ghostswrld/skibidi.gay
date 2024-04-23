@@ -1,4 +1,4 @@
-/* ghost x restrict css */ 
+/* gores css */ 
 
 body {
   font-family: Arial, sans-serif;
@@ -52,7 +52,7 @@ header {
 
 #socials {
   position: fixed;
-  top: 40%;
+  top: 55.7%;
   left: 40%;
   right: 40%;
   text-align: center;
@@ -66,11 +66,11 @@ header {
 
 .ghost {
   text-align: center;
-  margin-top: 18px;
+  margin-top: 20px;
   border-radius: 50%;
   overflow: hidden;
-  width: 190px;
-  height: 190px;
+  width: 200px;
+  height: 200px;
   margin-right: 20px;
   transition: width 0.3s, height 0.3s;
 }
