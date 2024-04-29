@@ -1,0 +1,61 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>twizzy duo</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/crt.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+
+</head>
+
+<body>
+	<audio id="gst-audio" src="media/audio.mp3" autoplaystyle="display:none"></audio>
+
+    <div class="wallpaper" id="wallpaper">
+        <div class="center-screen">
+            <div class="alignment-text">
+                <h1 class="big">sigmas</h1>
+                <div class="hover-person">
+                    <h1 class="animate__animated animate__fadeInDown"><a style="color: #000; text-decoration: none;" href="https://doxbin.com/user/gst" target="_blank">gst</a></h1>
+                </div>
+                <div class="hover-person">
+                    <h1 class="animate__animated animate__fadeInRight"><a style="color: #000; text-decoration: none;" href="https://doxbin.com/user/fateloi" target="_blank">fate</a></h1>
+                </div>
+
+                <h1 class="small">Click for more info</h1>
+            </div>
+            <div class="footer">
+                ©<a style="color: #fff; text-decoration: none;" href="skibidi.gay" target="_blank">skibidi.gay</a> Dev <a style="color: #fff; text-decoration: none;" href="https://t.me/obessions" target="_blank">gst</a> 2024
+            </div>
+        </div>
+    </div>
+	<script>
+		(function () {
+			const hoaAudio = document.getElementById('gst-audio');
+
+			function catchHandler() {
+				let inputListener;
+				inputListener = function () {
+					hoaAudio.play();
+					document.removeEventListener('mousedown', inputListener);
+					document.removeEventListener('keydown', inputListener);
+				};
+
+				document.addEventListener('mousedown', inputListener);
+				document.addEventListener('keydown', inputListener);
+			}
+
+			if (hoaAudio.readyState > 1) {
+				hoaAudio.play().catch(catchHandler);
+			} else {
+				hoaAudio.addEventListener('canplay', function () {
+					hoaAudio.play().catch(catchHandler);
+				});
+			}
+		})();
+	</script>
+    
+
+
+</body></html>
