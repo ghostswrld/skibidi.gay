@@ -245,8 +245,8 @@ function create_star(x, y, probability = 1.0) {
         star_y[min_index] = y;
         star[min_index].style.top = y + "px";
         star[min_index].style.clip = "rect(0px, 5px, 5px, 0px)";
-        star[min_index].childNodes[0].style.backgroundColor = "#ffffff";
-            star[min_index].childNodes[1].style.backgroundColor = "#ffffff";
+        star[min_index].childNodes[0].style.backgroundColor =
+            star[min_index].childNodes[1].style.backgroundColor = "#fff";
         star[min_index].style.visibility = "visible";
         return min_index
     }
