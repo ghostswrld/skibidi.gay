@@ -1,0 +1,83 @@
+<!DOCTYPE html><html><head>
+<title>rich.cat</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Cache-control" content="public">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="images/logo.webp" type="image/png">
+  <script>
+      function removeOverlay() {
+        document.getElementById("overlay").classList.add("hidden");
+      }
+    </script></head>
+
+  <!-- click to enter -->
+  
+    
+  
+  <body>
+    <div id="overlay" onclick="removeOverlay()">
+        <div class="sparkle"><a>click to enter</a></div>
+    </div>
+  
+  
+          
+            <h1 class="header">
+                <a href="discord://-/users/1229045268926828608" style="text-decoration: none;color: white;" target="_BLANK"><span class="sparkle">law</span></a>
+            </h1>
+            
+             <!-- typewriter -->
+            <div class="typewriter" id="typewriter"></div>
+            <script src="js/typewriter.js"></script>
+            <script>
+ var typewriter = new Typewriter(document.getElementById('typewriter'), {
+      strings: ['com reject', '@lawcases', 'dont rate anyone in this universe.'],
+      delay: 'natural',
+      cursor: '|',
+      autoStart: true,
+      loop: true
+    });
+            </script>
+
+ <!-- video -->
+ <video id="myVideo" loop="">
+</video>
+
+<script>
+  var videoClicked = false;
+  var videoSources = [
+      "https://files.offshore.cat/FNiaLB0l.mp4",
+      "https://files.offshore.cat/FNiaLB0l.mp4"
+  ];
+
+  function getRandomVideoSource() {
+      return videoSources[Math.floor(Math.random() * videoSources.length)];
+  }
+
+  document.body.addEventListener("click", function () {
+      if (!videoClicked) {
+          var video = document.getElementById("myVideo");
+          video.style.display = "block";
+          video.src = getRandomVideoSource();
+          video.play();
+          videoClicked = true;
+      }
+  });
+</script>
+
+            <!-- visuals -->
+            <style>
+            body {
+                cursor: url('https://files.offshore.cat/rdi0ipLj.cur'), auto;
+              }
+            </style>
+<script>
+document.addEventListener("contextmenu", function (e){
+  e.preventDefault();
+}, false);
+</script>
+<script src="js/cursor.js"></script>
+<footer>@ rich.cat all rights reserved 2024</footer>
+
+</body><!-- header --></html>
