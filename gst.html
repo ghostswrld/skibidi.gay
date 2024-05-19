@@ -7,7 +7,12 @@
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <link rel="icon" href="images/logo.webp" type="image/png">
 <script src="css/disable-click"></script>
-
+    <script>
+        // Mobile detection and redirection script
+        var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+        if (isMobile) {
+            window.location.href = "https://skibidi.gay/gst"; // Replace with your actual mobile URL
+        }
   <script>
       function removeOverlay() {
         document.getElementById("overlay").classList.add("hidden");
