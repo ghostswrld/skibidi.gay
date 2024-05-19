@@ -43,6 +43,21 @@
 </div>
 </div>
 
+ function getRandomVideoSource() {
+      return videoSources[Math.floor(Math.random() * videoSources.length)];
+  }
+
+  document.body.addEventListener("click", function () {
+      if (!videoClicked) {
+          var video = document.getElementById("myVideo");
+          video.style.display = "block";
+          video.src = getRandomVideoSource();
+          video.play();
+          videoClicked = true;
+      }
+  });
+</script>
+
 </script>
     cursor: url(https://r2.shock.lol/LoWXwjWuGtdtHHoV.cur) 16 16, auto !important;
 
