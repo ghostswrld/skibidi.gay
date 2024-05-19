@@ -1,11 +1,11 @@
-const icons = document.querySelectorAll('.role-icon');
-icons.forEach(function(icon) {
-    icon.addEventListener('click', function() {
-        icons.forEach(function(iconn) {
-            if (iconn !== icon) {
-                iconn.classList.remove('active');
-            }
-        });
-        icon.classList.toggle('active');
-    });
+const musicButton = document.getElementById('musicplayer');
+const audio = document.getElementById('audio');
+
+musicplayer.addEventListener('click', () => {
+  if (audio.paused) {
+    audio.play();
+    audio.loop();
+  } else {
+    audio.pause();
+  }
 });
