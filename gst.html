@@ -43,8 +43,27 @@
             </script>
 
  <!-- video -->
-    <div class="outer" fetchpriority="high" loading="eager" decoding="async" style="background-image: url('')">
-<video crossorigin="anonymous" id="video" src="https://files.offshore.cat/gJT7iE60.mp4" loop="" playsinline="" class="video"></video>
+ <video id="myVideo" loop="">
+</video>
+
+<script>
+  var videoClicked = false;
+  var videoSources = [
+      "https://files.offshore.cat/gJT7iE60.mp4",
+      "https://files.offshore.cat/gJT7iE60.mp4"
+  ];
+
+  function getRandomVideoSource() {
+      return videoSources[Math.floor(Math.random() * videoSources.length)];
+  }
+
+  document.body.addEventListener("click", function () {
+      if (!videoClicked) {
+          var video = document.getElementById("myVideo");
+          video.style.display = "block";
+          video.src = getRandomVideoSource();
+          video.play();
+          videoClicked = true;
       }
   });
 </script>
