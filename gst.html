@@ -9,11 +9,17 @@
 <script src="css/disable-click"></script>
 <script src="js/disable-inspect.js"></script>
 
-  <script>
-      function removeOverlay() {
-        document.getElementById("overlay").classList.add("hidden");
-      }
-    </script></head>
+    <script>
+        function removeOverlay() {
+            var overlay = document.getElementById("overlay");
+            overlay.style.display = "none";
+        }
+
+        function playMusic() {
+            var audio = new Audio("https://files.catbox.moe/9qdhta.mp3");
+         audio.play();
+        }
+    </script>      
 
   <!-- click to enter -->
 
