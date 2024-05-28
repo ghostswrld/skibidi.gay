@@ -5,7 +5,7 @@ clickToEnter.addEventListener("click", () => {
 const TEXTS = [
     "hi :3",
     "@cudip owns this",
-
+    "heavensent / @cudip",
 ]
 
 async function sleep(ms) {
