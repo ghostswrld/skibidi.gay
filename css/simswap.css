@@ -1,0 +1,29 @@
+body{
+    height:100vh;
+    object-fit:cover;
+    margin:0!important;
+    background-size:cover;
+    background-repeat:no-repeat;
+    min-height:-webkit-fill-available
+}
+#main{
+    display:block!important
+}
+
+    body{
+    background-image:url(simswap.css);
+    object-fit:cover;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center
+}
+body{
+    height:100vh;
+    object-fit:cover;
+    margin:0!important;
+    background-size:cover;
+    background-repeat:no-repeat;
+    min-height:-webkit-fill-available
+}
+#main{
+    display:block!important
