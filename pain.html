@@ -38,8 +38,6 @@
 </audio>
 
 
-
-
 <p class="displayname "><span class="tooltip">josh</span></p>
 <span class="tooltip">mlr</span>
 "josh"
@@ -60,6 +58,32 @@
       <source src="media/fuckcover.mp3" type="audio/mpeg">
     </audio>
     
+
+<script>
+    function handleClick() {
+        const nameElements = document.querySelectorAll('.clickmessage');
+            nameElements.forEach(function(element) {
+                element.style.display = 'none';
+            });
+
+        const audioUrls = [
+            "https://files.offshore.cat/j5rZCTEd.mp3",
+            "https://files.offshore.cat/j5rZCTEd.mp3",        
+        ];
+
+        const rndAudio = Math.floor(Math.random() * audioUrls.length);
+
+        const audioItem = new Audio(audioUrls[rndAudio]);
+        audioItem.volume = 0.1;
+        audioItem.loop = true;
+        audioItem.play();
+
+        document.removeEventListener("click", handleClick);
+    }
+
+    document.addEventListener("click", handleClick);
+    </script>
+
             <!-- visuals -->
 <script>
 document.addEventListener("contextmenu", function (e){
