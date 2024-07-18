@@ -1,0 +1,211 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gst's profile</title>
+    <style>
+        body {
+            background-color: #002b56;
+            color: #fff;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #000;
+            color: #fff000;
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 10px;
+        }
+        .header a {
+            color: #fff000;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+        .content {
+            display: flex;
+            padding: 10px;
+        }
+        .left-column, .right-column {
+            background-color: #15345a;
+            padding: 10px;
+            margin: 5px;
+            border: 2px solid #004080;
+        }
+        .left-column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .right-column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .ascii-art {
+            flex: 1;
+            background-color: #222;
+            color: #fff;
+            padding: 10px;
+            overflow: auto;
+            border: 2px solid #004080;
+            margin-bottom: 10px;
+        }
+        .user-profile, .system-announcement, .about-me {
+            background-color: #111;
+            padding: 10px;
+            border: 2px solid #004080;
+            margin-bottom: 10px;
+        }
+        .user-profile {
+            background-color: #666;
+        }
+        .footer {
+            text-align: center;
+            padding: 5px;
+            background-color: #15345a;
+            border-top: 2px solid #004080;
+        }
+        .music-player {
+            background-color: #333;
+            padding: 10px;
+            border: 2px solid #004080;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .music-player button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .music-player button:hover {
+            background-color: #555;
+        }
+        .error {
+            background-color: #333;
+            color: #fff;
+            padding: 1px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <a href="#">Home</a> | 
+            <a href="https://fedding.wtf/hoa">Fedding</a> |
+            <a href="https://doxbin.com/user/gst">Doxbin</a>
+        </div>
+        <div>
+            Guest <span style="color:#fff;">* 3:28</span>
+        </div>
+    </div>
+    <div class="content">
+        <div class="left-column">
+            <div class="ascii-art">
+                <textarea id="message-box" cols="120" rows="30" readonly="" style="resize: none" ;="">Gst the #1 skidder &lt;3
+Contact me @
+discord: computerabuse
+https://t.me/larpledger
+
+ ██████  ███████ ████████ 
+██       ██         ██    
+██   ███ ███████    ██    
+██    ██      ██    ██    
+ ██████  ███████    ██    
+                          
+Government informant                           
+#1 inny 
+https://fedding.wtf/, https://bindisafatnigger.info/
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣤⣤⣤⡶⠶⠶⠶⠿⠿⠿⠿⠛⠛⠛⠻⠿⣿⣛⡛⠛⠛⠛⠛⠛⠛⠿⠷⣦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⣀⣴⡾⠟⣋⣉⣉⣉⣉⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠠⠤⠀⣀⣈⡉⠒⠤⣀⠀⠀⠀⠀⠈⠻⣷⡄⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⣠⡾⠛⠁⠀⠀⠁⢀⡠⠤⢄⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⡶⠒⠒⠒⠢⠤⠬⣉⠒⢤⡉⠲⢄⡀⠀⠀⠈⢿⣄⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⢰⣿⠁⠀⠀⠀⢠⠚⠁⠀⠀⠀⠀⠸⡌⠀⠀⠀⠀⠀⠀⡜⠀⠀⠀⠀⠀⠀⠀⠀⠉⠲⢌⠳⣄⠉⠂⠀⠀⠈⢿⣆⠀⠀⠀⠀⠀
+⠀⠀⠀⣼⡏⠀⠀⠀⠀⠁⠀⣀⣀⣀⡀⠀⠀⠁⠀⠀⠀⠀⠀⠀⠀⣀⣤⣶⠶⣶⣶⣶⣶⣤⣄⠀⠁⠈⠀⠀⠀⠀⠀⠈⢿⣦⠀⠀⠀⠀
+⠀⣴⡾⠋⣀⠤⠄⠤⠤⠰⣿⣿⣿⣿⣿⣿⣶⣄⡀⠀⠀⠀⠀⢠⣾⠟⢁⣀⣤⣿⣿⣿⣿⣯⣽⣿⠄⠠⠤⠄⠀⠀⠤⢶⣶⣿⣷⣤⠀⠀
+⣾⠏⡴⢊⠤⠂⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠻⣿⠟⠋⠀⠀⠀⠈⠻⣿⠟⠋⠉⠀⠹⣦⣀⠀⠈⠁⠀⣁⣤⣶⡶⠶⠶⣶⣄⠀⠙⡝⣷⡄
+⣿⣾⠀⡇⠴⠟⠛⠛⢻⣶⣤⣴⡆⠀⠀⠀⢀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⠻⠷⠾⠛⠛⠉⠁⣰⡆⠀⠀⠻⣧⠀⢸⠈⣿
+⣿⣿⠀⢧⡀⠀⢀⣷⠀⠉⠉⠉⠀⢀⣠⣾⠟⠋⠀⠀⠀⠀⠀⠀⠶⢶⣦⡰⢄⣀⣀⣀⠀⠀⠀⠀⣀⣤⣶⠿⠛⣿⣦⣤⡀⣿⠆⢸⠀⣸
+⠸⣿⡳⢤⣁⠀⣿⣿⣆⠀⠀⡠⠔⠛⠿⢿⣄⠀⠀⠀⠀⠴⠶⠶⣶⢀⣿⠇⠀⠀⢀⣀⣤⣴⣾⣿⠟⠉⠀⢀⣼⣿⠉⠉⢰⡿⠀⡌⢠⣿
+⠀⠹⣷⠀⠀⢸⣿⣿⢿⣷⣦⣀⡀⠀⠀⠀⠙⢿⡶⠗⠀⠀⠀⢀⣀⣨⣥⣴⣾⠿⠛⠋⠉⠀⣠⣿⣀⣤⣶⣿⡿⠃⠀⠀⠀⠴⠊⣠⡿⠃
+⠀⠀⣿⠀⠀⢸⣿⡇⢸⡏⠉⢻⡿⠿⠶⠶⣶⣶⠿⠶⠶⣿⠟⠛⠋⠉⠉⢹⣧⠀⣀⣤⣴⣾⣿⣿⠟⠉⣼⠟⠁⠀⠀⠀⠀⣰⣿⠟⠁⠀
+⠀⠀⣿⠀⠀⢸⣿⣿⣿⣷⣤⣼⣧⣄⣀⣀⣼⣇⣀⣀⣀⣿⣄⣀⣀⣤⣤⣶⣿⣿⡿⠿⠛⠉⠸⣿⣠⡾⠋⠀⠀⠀⠀⠀⣰⡿⠁⠀⠀⠀
+⠀⠀⣿⠀⠀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠛⠋⢹⣇⠀⠀⠀⠀⣠⡿⠟⠁⠀⠀⠀⠀⠀⣰⡿⠀⠀⠀⠀⠀
+⠀⠀⣿⠀⠀⠀⢻⣿⣿⡝⣿⡟⠻⣿⡟⠛⠻⣿⠛⠋⠉⠉⣿⠁⠀⠀⠀⠀⠈⢿⣄⣠⣴⠿⠋⠀⠀⠀⠀⠀⠀⣠⣾⠟⠀⠀⠀⠀⠀⠀
+⠀⠀⣿⠀⠀⠀⠀⠻⢿⣦⣼⣿⣀⣹⣷⡀⠀⣿⡆⠀⠀⠀⣿⣄⣀⣀⣠⣤⣶⠿⠟⠋⠁⣀⠤⠒⣀⠤⠒⣡⣾⠟⠁⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⣿⠀⠀⡀⠀⢠⡀⠈⠉⠉⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠉⠉⠁⢀⡠⠤⠒⣉⡤⠐⢊⣡⣴⠿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⣿⠀⠀⢣⡀⠀⠙⠲⠤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⡀⠀⠠⣤⣒⡋⠥⠄⠒⣉⣠⣴⡾⠟⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⣿⡀⠀⠀⠈⠓⠤⣀⣀⣀⣀⣀⠀⠠⠤⠤⠤⠤⠔⠒⠒⠊⠉⠁⠀⢀⣠⣴⠾⠟⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠙⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣠⣤⣶⠾⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠈⠛⠷⣦⣤⣀⣀⣀⣀⣀⣀⣀⣤⣤⣴⣶⠾⠟⠛⠋⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</textarea>
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="error">
+                ERROR - Could not authenticate user. Only partial data has been loaded.
+            </div>
+            <div class="user-profile">
+                <div>-- User Profile --</div>
+                <div>Username: gst</div>
+                <div>Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="69696969">[email�&nbsp;protected]</a></div>
+                <div>Fedding: <a href="https://fedding.wtf/hoa"><smd></smd></a></div>
+                <div>Doxbin: <a href="https://doxbin.com/user/gst"><hmd></hmd></a></div>
+            </div>
+            <div class="system-announcement">
+                <div>System Announcement</div>
+                <div>Look behind you..</div>
+            </div>
+            <div class="about-me">
+                <div>About Me</div>
+                <p>#1 inny</p>
+                <img src="images/4ecf5753dfc8d8c85276ddcedb4fa399.webp" alt="Logo" width="128" height="128">
+                <img src="images/image_2.png" alt="Logo" width="128" height="128">
+                <img src="images/image.png" alt="Logo" width="128" height="128">
+                <img src="images/image_1.png" alt="Logo" width="128" height="128">
+            </div>
+            <img src="images/image_2024-07-15_202852756.png" type="image/png" width="550" height="400" alt="Additional Image">
+            <style>
+                .music-player {
+                    display: none; /* Hide the entire music player */
+                }
+            </style>
+            <div class="music-player">
+                <audio controls="" id="audio-player" autoplay="">
+                    <source src="media/gst.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <input type="range" id="volume-slider" min="0" max="100" value="50">
+                <button onclick="playAudio()" style="width: 50px; height: 25px; background-color: blue; color: white;">Play</button>
+                <button onclick="pauseAudio()" style="width: 50px; height: 25px; background-color: darkblue; color: white;">Pause</button>
+                <button onclick="stopAudio()" style="width: 50px; height: 25px; background-color: darkblue; color: white;">Stop</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        © skibidi.gay
+    </div>
+    <script data-cfasync="false" src="js/email-decode.min.js"></script><script>
+        var audioPlayer = document.getElementById('audio-player');
+
+        function playAudio() {
+            audioPlayer.play();
+        }
+
+        function pauseAudio() {
+            audioPlayer.pause();
+        }
+
+        function stopAudio() {
+            audioPlayer.pause();
+            audioPlayer.currentTime = 0;
+        }
+    </script>
+
+
+</body></html>
